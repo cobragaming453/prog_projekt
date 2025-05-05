@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapcsolatfelvétel</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="sajat.css">
+</head>
+<body>
+<header>
+  <h1>Kapcsolatfelvételi űrlap</h1>
+</header>
+<div class="row">
+  <div class="col-md-4">
+    <nav>
+      <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="2.oldal.html">Webes nyelvek</a></li>
+        <li><a href="3.oldal.html">Nyelvek összehasonlítása</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main class="col-md-8">
+    <form action="#" method="post">
+      <label for="nev">Név:</label><br>
+      <input type="text" id="nev" name="nev" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="nyelv">Kedvenc programozási nyelv:</label><br>
+      <select id="nyelv" name="nyelv">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+      </select><br><br>
+      <label for="uzenet">Üzenet:</label><br>
+      <textarea id="uzenet" name="uzenet" rows="4" cols="50"></textarea><br><br>
+      <input type="submit" value="Küldés">
+    </form>
+  </main>
+</div>
+<footer>
+  <h3>Köszönöm, hogy meglátogattad az oldalunkat!</h3>
+</footer>
+</body>
+</html>
