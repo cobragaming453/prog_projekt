@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head><link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="sajat.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prog_projekt</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webes alapismeretek</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="sajat.css">
 </head>
 <body>
-<header>
-<h1>(cim)</h1>
-</header>
-<div class="row">
-<div class="col-md-4">
-<nav>
-    <ul>
-<li><a href="index.html">(első oldal cime)</a></li>
-<li><a href="3.oldal.html">(harmadik oldal cime)</a></li>
-</ul>
-</nav>
-</div>
-<main>
+  <header>
+    <h1>HTML, CSS és JavaScript története és szerepe</h1>
+  </header>
 
-<div class="col-md-8">
-<p>(soveg)</p>
-</div>
-</div>
-</div>
-</main>
-<footer>
-<h3>(opcionális)</h3>
-</footer>
+  <div class="row">
+    <div class="col-md-4">
+      <nav>
+        <ul>
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="3.oldal.html">Nyelvek összehasonlítása</a></li>
+          <li><a href="urlap.html">Kapcsolat</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="col-md-8">
+      <section>
+        <h2><img src="htmllogo.png" alt="HTML logó" style="float:left; margin-right:15px;" class="float-start me-3 nyelv-kep">HTML – A Web Alapja</h2>
+        <p>A HTML (HyperText Markup Language) a weboldalak szerkezetének meghatározására szolgáló jelölőnyelv. Ez a nyelv határozza meg, hogy mi jelenjen meg az oldalon, például címsorok, bekezdések, képek vagy linkek formájában.</p>
+        <p>Az első HTML-verziót Tim Berners-Lee fejlesztette ki az 1990-es évek elején, a World Wide Web elindításához. Azóta számos új verzió készült, a legújabb és leggyakrabban használt verzió a HTML5, amely multimédiás elemek (videó, hang) és strukturális tagolás támogatását is tartalmazza.</p>
+        <p>A HTML tehát nem egy programozási nyelv, hanem egy jelölőnyelv. Ez azt jelenti, hogy nem tud számításokat végezni vagy logikát kezelni, csak szerkezetet biztosít a tartalomhoz.</p>
+        <p>Napjainkban minden weboldal HTML-re épül – még a legmodernebb alkalmazások is ezt használják a felhasználói felület struktúrájának alapjául.</p>
+      </section>
+      <hr class="elvalaszto">
+      <section>
+        <h2><img src="css-logo.png" alt="CSS logó" style="float:right; margin-left:15px;" class="float-end ms-3 nyelv-kep">CSS – A Stílus Művészete</h2>
+        <p>A CSS (Cascading Style Sheets) a HTML tartalom megjelenésének formázására szolgál. Lehetővé teszi a betűtípusok, színek, elrendezések és animációk meghatározását a weboldalakon.</p>
+        <p>A CSS-t 1996-ban vezették be, válaszként arra, hogy a HTML-t túl gyakran használták kinézetformázásra is. Ezzel szétválaszthatóvá vált a tartalom (HTML) és a megjelenés (CSS).</p>
+        <p>A CSS-ben osztályokkal, azonosítókkal és szelektorokkal lehet meghatározni, hogy mely elemekre milyen stílusok vonatkoznak. Ez lehetővé teszi a reszponzív, mobilbarát és vizuálisan egységes oldalak létrehozását.</p>
+        <p>Ma már elengedhetetlen eszköz a modern webfejlesztésben – szinte nincs olyan weboldal, amely ne használna legalább alap CSS-t a felhasználói élmény javítása érdekében.</p>
+      </section>
+      <hr class="elvalaszto">
+      <section>
+        <h2><img src="JavaScript-Logo.png" alt="JavaScript logó" style="float:left; margin-right:15px;" class="float-start me-3 nyelv-kep">JavaScript – Az Interaktív Web Lelke</h2>
+        <p>A JavaScript egy magas szintű programozási nyelv, amelyet arra használnak, hogy interaktívvá tegyék a weboldalakat – például gombokra kattintva eseményeket indítson el, dinamikusan módosítsa a tartalmat vagy épp adatot küldjön szerverre.</p>
+        <p>1995-ben fejlesztette ki Brendan Eich a Netscape-nél, és bár eredetileg csak egyszerű feladatokra szánták, mára egy teljes értékű, univerzális nyelvvé nőtte ki magát.</p>
+        <p>A JavaScript lehetővé teszi animációk, űrlapellenőrzések, popup ablakok és AJAX-kérések kezelését, valamint együttműködik a HTML-lel és a CSS-sel egy dinamikus, felhasználóbarát felület kialakításához.</p>
+        <p>Manapság a JavaScript nélkülözhetetlen a modern webalkalmazásoknál – például a Facebook, YouTube, Gmail és rengeteg más oldal is erőteljesen épít rá.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <h3>Készítette: Béres Sándor Márk és Boros Máté Levente</h3>
+  </footer>
 </body>
 </html>
